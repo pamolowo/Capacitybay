@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvitica;
+}
+h1{
+    text-align: center;
+}
+.container{
+    margin: 5% auto;
+    width: 50%;
+    padding: 2rem;
+    border: 2px solid rgb(91, 91, 252);
+}
+hr{
+    border-top: 2px solid rgb(91,91,252);
+}
+.oList{
+    list-style-type: upper-alpha;
+    padding-left: 2rem;
+}
+ul{
+    padding-left: 2rem;
+}
+p{
+    padding : 1rem;
+    line-height: 1.5rem;
+}

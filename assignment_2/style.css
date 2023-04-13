@@ -1,0 +1,9 @@
+table  td{
+    border: 1px solid;
+    padding: 2px;
+
+}
+thead{
+    font-size: 20px;
+    font-weight: bolder;
+}

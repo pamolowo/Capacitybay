@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+    <a href="contact.html" target="_blank"> Take me to Contact us Page</a>
+    <h3>This is the about us page</h3>
+
+    <form action="submit-form.php" method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name"><br>
+      
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name"><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+      
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+      
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="not-say">Rather Not Say</option>
+        </select><br>
+      
+        <label for="favorite-foods">Favorite Foods:</label>
+        <select id="favorite-foods" name="favorite-foods" >
+          <option value="beans">Beans</option>
+          <option value="rice">Rice</option>
+          <option value="spaghetti">Spaghetti</option>
+          <option value="soup">Soup</option>
+          <option value="pizza">Pizza</option>
+        </select><br>
+      
+        <label for="certificate">Certificate:</label>
+        <select id="certificate" name="certificate">
+          <option value="fslc">FSLC</option>
+          <option value="olevel">O'Level</option>
+          <option value="bsc">BSC</option>
+        </select><br>
+      
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br>
+      
+        <label for="about-yourself">Tell us about yourself:</label>
+        <textarea id="about-yourself" name="about-yourself"></textarea><br>
+      
+        <input type="submit" value="Submit">
+      </form>
+      
+
+    
+</body>
+</html>

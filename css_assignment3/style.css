@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    
+    
+}
+.navbar ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+.container{
+    width: 50%;
+    margin: auto;
+    -webkit-box-shadow: 5px 2px 10px 5px rgba(203,196,196,1);
+    box-shadow: 5px 2px 10px 5px rgba(203,196,196,1);
+}
+header{
+    text-align: center;
+    padding: 1rem;
+}
+.content{
+    width: 70%;
+    margin: auto;
+   
+}
+article{
+    padding: 2rem;
+}
+h1{
+    padding-top: 1rem;
+}
+p{
+    padding-top: 1rem;
+}
+.light_font{
+    font-weight: lighter;
+    color: grey;
+}
+footer{
+    text-align: center;
+    padding-top: 1rem;
+}

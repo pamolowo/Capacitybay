@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(64, 128, 64);
+    height: 4rem;
+}
+.logo{
+    background-color: white;
+    color:  rgb(64, 128, 64);
+    padding: 1rem;
+    font-weight: 700;
+}
+
+
+.navList ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+   
+
+}
+.navList ul li{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+
+}
+main{
+    background-color: rgb(159, 137, 237);
+    background: url("./Assets/turned-gray-laptop-computer.jpg");
+    background-size: cover;
+    background-position: center;
+    isolation: isolate;
+    text-align: center;
+    padding: 20%;
+    z-index: 1;
+    
+
+   
+}
+.content{
+    position: relative;
+    color: rgb(7, 0, 0);
+}
+.content::after{
+    content: '';
+    position: absolute;
+    mix-blend-mode: multiply;
+    background: white;
+    inset: 0;
+    z-index: -1;
+}
+.content h1{
+    font-size: 72px;
+    color: white;
+}
+.content p{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(38, 187, 38);
+    background-color: rgb(17, 16, 16);
+    width: fit-content;
+    margin: auto;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border-bottom: 2px solid green;
+}
+.box .bolder{
+    font-size: 64px;
+    padding: 0.5rem;
+
+}
+.box p{
+    padding: 1rem;
+    font-size: 22px;
+}
+.link-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    
+}
+.link-list ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.linkd-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.linkd-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 1rem;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 1rem;
+   
+}
+.tail{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    justify-content: space-evenly;
+    gap: 35px;
+    padding: 1rem;
+}
+@media (max-width: 480px) {
+    .navbar
+    .content {
+       font-size: medium;
+    }
+}

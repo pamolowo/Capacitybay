@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:ital@1&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,700&family=Poppins:ital@1&display=swap');
+  :root{
+    --color-1: hsl(210, 4%, 67%);
+    --color-2: hsl(167, 40%, 24%);
+    --color-3:   hsl(7, 99%, 70%);
+    --color-4:   hsl(198, 62%, 26%);
+    --color-5:   hsl(51, 100%, 49%);
+    --color-6:   hsl(0, 0%, 100%);
+    --color-7:   hsl(232, 10%, 55%);
+    --color-8:   hsl(213, 9%, 39%);
+    --color-9:   hsl(212, 27%, 19%);
+  
+}
+
+body{
+    font-family: 'barlow';
+}
+
+.Top-page{
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* background-attachment: fixed;     */
+  color: var(--color-6);
+  padding: 2% 7%;
+  padding-bottom: 300px;   
+}
+.header-text{
+  text-align: center;
+  margin-top: 10%;
+}
+  .active-btn:hover{
+    color: var(--color-6);
+    background-color: rgb(131, 199, 252);
+    border: none;
+   
+  }
+  .content-section{
+    width: 100%;
+    overflow:hidden;
+  }
+  
+.mid-text{
+  align-self: center;
+  padding: 40px 100px;  
+}
+
+.limg-rows{
+  text-align: center;
+  background-size: cover;
+  padding-top: 400px ;
+  align-self: stretch;
+  height: 100vh;
+ 
+  
+}
+
+.limg-rows h2{
+  margin-top: 300px;
+}
+
+.graphic-sec{
+  color: hsl(167, 40%, 24%);
+  
+}
+
+.photography-sec{
+  color: hsl(198, 62%, 26%);
+}
+
+  .font-b{
+    font-family: 'fraunces';
+   }
+   .write-up{
+    width: 70%;
+    margin: 25% auto;
+   }
+   .write-up a{
+    color: black;
+   }
+   .a-1{
+    text-decoration-color: var(--color-5)
+   }
+   .a-2{
+    text-decoration-color: var(--color-3);
+   }
+   .write-up a:hover{
+    transform: scale3d(1.5);
+   }
+   .grey{
+    color: var(--color-7);
+   }
+   .grey h2{
+    text-align: center;
+    padding: 5px;
+   }
+
+   .list-unstyled{
+    gap: 15px;
+   }
+   .flex-column{
+    background-color: rgb(149, 199, 163);
+   }
+  /* Style links inside list items */
+.link-active {
+  color: inherit; /* Use the same color as the text color (initially) */
+  text-decoration: none; /* Remove underlines if needed */
+ transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+
+
+.link-active a:hover {
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+   /* .list-unstyled:hover{
+    color: var(--color-6);
+   } */
+/*    
+  .bg-img-1{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    justify-items: flex-end;
+    
+
+  }
+  .bg-img-2{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+    
+  }  */
+  @media screen and (max-width:375px){
+
+    .mid-text{
+        padding: 15% 8%;
+        text-align: center;
+    }
+
+    .limg-rows{
+        padding-top: 320px;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .limg-rows h2,p{
+        padding: 8px 20px;
+    }
+
+  
+
+}
+
+
+   

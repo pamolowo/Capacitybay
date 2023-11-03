@@ -1,0 +1,15 @@
+.container{
+    margin:5% auto;
+
+}
+.parag{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    
+
+}
+.parag p{
+    font-size: larger;
+    font-weight: bold;
+}

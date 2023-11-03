@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container"></div>
+  <h1>ATTENDANCE REGISTER</h1>
+    <form id="form">
+
+        <input type="text" id="name" name="name" required placeholder="Full Name">
+        
+        
+        <input type="number" id="number" name="number" required placeholder="Number">
+        
+    
+        <select id="select" placeholder="city">
+            <option value="">-- Select city -- </option>
+            <option value="Abuja">Abuja</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Port">Port Harcourt</option>
+            <option value="Warri">Kano</option>
+            <option value="Abuja">Warri</option>
+            <option value="Lagos">Calabar</option>
+            <option value="Port">Uyo</option>
+            <option value="Warri">Asaba</option>
+            <option value="Abuja">Kaduna</option>
+            <option value="Lagos">Benin-City</option>
+            <option value="Port">Enugu</option>
+            <option value="Warri">Akure</option>
+          </select>
+        
+        
+        <input type="number" id="roll-number" name="roll-number" required placeholder="Roll-number">
+        
+        <input type="submit" value="Submit" style="background-color: skyblue; border-color: skyblue;">
+      </form>
+
+      <hr>
+      <div class="regcontainer">
+        <div class="parag">
+          <p>Name</p>
+          <p>Number</p>
+          <p>City</p>
+          <p>Roll Number</p>
+        </div>
+        <div class="regcontent">
+        
+
+        </div>
+
+      </div>
+      <script src="app.js"></script>
+    </div>
+    
+</body>
+</html>
